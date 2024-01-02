@@ -59,6 +59,7 @@ const Input = () => {
         dispatch(setEnd(high));
       }
     }
+    dispatch(setOutput(null));
   };
 
   const handleSearch = () => {
